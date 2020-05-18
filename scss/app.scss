@@ -1,0 +1,17 @@
+
+@import 'reset';
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+@import 'header';
+@import 'top';
+@import 'story';
+@import 'menu';
+@import 'quote';
+@import 'contact';
+@import 'footer';

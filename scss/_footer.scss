@@ -1,0 +1,34 @@
+footer {
+    background: #141B21;
+    height: 53vh;
+    padding-top: 13vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Nunito";
+    .logo {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+    .navigation {
+        margin-bottom: 7rem;
+        a {
+            font-size: .7rem;
+            font-weight: bold;
+            border-right: 1px solid white;
+            padding: 0rem 2rem;
+            &:last-child {
+                border: none;
+            }
+        }
+    }
+    .copyright, .developer {
+        font-size: .7rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+        color: #a4a4a4;
+    }
+}
