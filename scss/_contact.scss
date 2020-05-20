@@ -1,5 +1,5 @@
 #contact {
-    padding: 5rem 0 calc(440px - 6.27rem);
+    padding: 5rem 0rem calc(440px - 6.27rem);
     background: url('https://www.agresidentialnc.com/wp-content/uploads/2019/03/stock-photo-art-concrete-texture-for-background-in-black-grey-and-white-colors-298514801.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -98,7 +98,6 @@
                         font-size: .8rem;
                         font-weight: bold;
                         line-height: 1.6rem;
-                        // margin-bottom: 1.25rem;
                         width: 80%;
                     }
                 }
@@ -119,7 +118,49 @@
     }
     .mapouter{
         position: absolute;
-        top: 34rem;
+        top: 29.3rem;
         z-index: 1;
     }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    #contact {
+        padding: 5rem 0 0;
+        .contact-info {
+            padding: 4rem 1rem; // *
+            grid-template-columns: 1fr; //*
+            grid-gap: 2.5rem; //*
+            .left-side {
+                .border-bottom {
+                    bottom: -1rem; //*
+                }
+            }
+            .right-side {
+                > h2 {
+                    font-size: 1.7rem;
+                    margin-bottom: 2.2rem;
+                }
+            }
+        }
+        .mapouter {
+            position: static;
+            height: 340px;
+            iframe {
+                height: 340px;
+            }
+            .gmap_canvas {
+                height: 340px;
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
 }

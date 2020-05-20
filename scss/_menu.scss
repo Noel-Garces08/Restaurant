@@ -1,5 +1,5 @@
 #menu {
-    padding: 10rem 0;
+    padding: 10rem 1rem;
     background: url('https://www.agresidentialnc.com/wp-content/uploads/2019/03/stock-photo-art-concrete-texture-for-background-in-black-grey-and-white-colors-298514801.jpg');
     .title {
         color: #817f7f;
@@ -68,5 +68,21 @@
     }
 }
 
+
+@media (min-width: 0px) and (max-width: 767px) {
+    #menu {
+        padding: 6rem 1rem;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+}
   
   

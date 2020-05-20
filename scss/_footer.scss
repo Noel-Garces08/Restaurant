@@ -2,6 +2,8 @@ footer {
     background: #141B21;
     height: 53vh;
     padding-top: 13vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,4 +33,31 @@ footer {
         line-height: 1.4rem;
         color: #a4a4a4;
     }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {  
+    footer {
+        padding-top: 0;
+        .navigation {
+            // margin-bottom: 7rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            text-align: center;
+            grid-gap: 1.5rem;
+            a {
+                border-right: none;
+            }
+        }
+        .copyright, .developer {
+        }
+    }  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
 }
